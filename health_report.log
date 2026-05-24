@@ -1,0 +1,25 @@
+==============================
+ Server Health Report
+ 2026-05-23 16:49:29
+==============================
+[CPU] Usage: 0.0%
+[RAM] Usage: 11%
+[DISK] Usage: 1%
+[SERVICE] ssh: inactive
+inactive
+[SERVICE] cron: active
+[SERVICE] networking: inactive
+inactive
+
+[LOGS] Last 10 errors:
+May 23 16:32:21 DESKTOP-GE62BLQ unknown: WSL (187) ERROR: CheckConnection: getaddrinfo() failed: -3
+May 23 16:32:21 DESKTOP-GE62BLQ unknown: WSL (187) ERROR: CheckConnection: getaddrinfo() failed: -3
+May 23 16:32:21 DESKTOP-GE62BLQ unknown: WSL (2 - init-systemd(Ubuntu)) ERROR: WaitForBootProcess:3488: /sbin/init failed to start within 10000ms
+May 23 16:32:21 DESKTOP-GE62BLQ unknown: WSL (2 - init-systemd(Ubuntu)) ERROR: InitTerminateInstanceInternal:2763: systemctl poweroff did not terminate the instance in 10000 ms, calling reboot(RB_POWER_OFF)
+May 23 16:32:31 DESKTOP-GE62BLQ unknown: WSL (2 - init-systemd(Ubuntu)) ERROR: WaitForBootProcess:3488: /sbin/init failed to start within 10000ms
+May 23 16:32:31 DESKTOP-GE62BLQ login[357]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+May 23 16:32:31 DESKTOP-GE62BLQ login[357]: PAM adding faulty module: pam_lastlog.so
+May 23 16:33:17 DESKTOP-GE62BLQ adduser[356]: Caught a SIG%s.
+May 23 16:33:17 DESKTOP-GE62BLQ adduser[356]: `groupdel sarthak' returned error code 6. Exiting.
+May 23 16:41:46 DESKTOP-GE62BLQ unknown: WSL (187) ERROR: CheckConnection: connect() failed: 101
+==============================
